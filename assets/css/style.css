@@ -1574,11 +1574,13 @@ Icon for all respective meta
 
 /* === Footer Wrapper === */
 
+/*
 .footer-wrapper {
     background: #1a1e23;
     padding: 36px 0;
     color: #fff;
 }
+*/
 
 .copyright p {
     margin: 0;
@@ -1920,6 +1922,7 @@ footer {
     font-size: 14px;
     text-align: center;
     position: relative;
+    background-color: #1a1e23;
 }
 
 footer a,
@@ -1949,6 +1952,7 @@ footer .copyright li {
 
 .ie footer .copyright li {
     display: inline;
+    background-color: #1a1e23;
 }
 
 footer .copyright li:before {
@@ -2041,6 +2045,7 @@ footer .fa-instagram:hover {
 }
 
 #go-top a:hover {
-    background-color: #e43d4e;
+    background-color: #fff;
+    /*    e43d4e*/
     color: #525252;
 }

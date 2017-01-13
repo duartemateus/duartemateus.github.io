@@ -35,9 +35,15 @@ body {
     font-size: 14px;
     color: #282828;
     background-color: #fff;
+    padding-bottom: 0;
+    min-height: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
     -webkit-font-smoothing: antialiased !important;
+}
+
+html {
+    height: auto;
 }
 
 body,
@@ -388,10 +394,10 @@ ul.list-check li::before {
     font-size: 60px;
     line-height: 80px;
     margin-bottom: 16px;
-    color: 1a1e23;
+    color: whitesmoke;
 }
 
-.intro h1 span {
+.intro .intro-sub span {
     color: #e43d4e;
 }
 
@@ -401,7 +407,7 @@ ul.list-check li::before {
 }
 
 .intro-sub {
-    color: #fff;
+    color: #1a1e23;
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
@@ -455,7 +461,7 @@ SOCIAL ICON
     transition: all 300ms;
 }
 
-.social-icons a i:hover::after {
+.intro .social-icons a i:hover::after {
     background: #e43d4e;
     border: 1px solid transparent;
     z-index: 0;
@@ -883,7 +889,7 @@ Resume Timeline
         z-index: -1;
     }
     .timeline>li .timeline-content:hover {
-        background: #68c3a3;
+        background: #1a1e23;
         color: #fff;
     }
     .timeline>li .timeline-panel::before,
@@ -903,7 +909,7 @@ Resume Timeline
         transition: all 400ms;
     }
     .timeline>li .timeline-panel:hover::before {
-        border-left: 12px solid #68c3a3;
+        border-left: 12px solid #1a1e23;
     }
     .timeline>li.timeline-inverted .timeline-panel::before {
         right: 100%;
@@ -914,7 +920,7 @@ Resume Timeline
         transition: all 400ms;
     }
     .timeline>li.timeline-inverted .timeline-panel:hover::before {
-        border-right: 12px solid #68c3a3;
+        border-right: 12px solid #1a1e23;
         border-left: 0;
     }
     .timeline>li .timeline-panel::after,
@@ -935,7 +941,7 @@ Resume Timeline
         transition: all 400ms;
     }
     .timeline>li .timeline-panel:hover::after {
-        border-left: 12px solid #68c3a3;
+        border-left: 12px solid #1a1e23;
     }
     .timeline>li.timeline-inverted .timeline-panel::after {
         right: 100%;
@@ -947,7 +953,7 @@ Resume Timeline
         transition: all 400ms;
     }
     .timeline>li.timeline-inverted .timeline-panel:hover::after {
-        border-right: 12px solid #de044f;
+        border-right: 12px solid #1a1e23;
         border-left: 0;
     }
     .timeline>li .posted-date {
@@ -1522,6 +1528,11 @@ Icon for all respective meta
     padding: 9px 54px;
 }
 
+.hire-section a:hover {
+    background-color: rgba(255, 255, 255, 0.88);
+    color: #1a1e23
+}
+
 
 /* === Contact Section === */
 
@@ -1574,11 +1585,14 @@ Icon for all respective meta
 
 /* === Footer Wrapper === */
 
+
+/*
 .footer-wrapper {
     background: #1a1e23;
     padding: 36px 0;
     color: #fff;
 }
+*/
 
 .copyright p {
     margin: 0;
@@ -1619,6 +1633,18 @@ Icon for all respective meta
  * Mouse animate icon
 /* ---------------------------------------------- */
 
+.down-icon {
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+    bottom: 40px;
+    margin-left: -10px;
+    display: block;
+}
+
+
+/*
 .mouse-icon {
     position: absolute;
     left: 50%;
@@ -1631,7 +1657,10 @@ Icon for all respective meta
     display: block;
     z-index: 10;
 }
+*/
 
+
+/*
 .mouse-icon .wheel {
     -webkit-animation-name: drop;
     -webkit-animation-duration: 1s;
@@ -1657,6 +1686,7 @@ Icon for all respective meta
     margin-left: auto;
     margin-right: auto;
 }
+*/
 
 @-webkit-keyframes drop {
     0% {
@@ -1916,10 +1946,12 @@ Icon for all respective meta
 footer {
     padding-top: 48px;
     margin-bottom: 48px;
-    color: #303030;
+    /*    color: #303030;*/
     font-size: 14px;
     text-align: center;
     position: relative;
+    /*    background-color: #1a1e23;*/
+    margin-bottom: 0;
 }
 
 footer a,
@@ -1927,17 +1959,12 @@ footer a:visited {
     color: #525252;
 }
 
-footer a:hover,
-footer a:focus {
-    color: #fff;
-}
-
 
 /* copyright */
 
 footer .copyright {
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
 }
 
 footer .copyright li {
@@ -1949,6 +1976,7 @@ footer .copyright li {
 
 .ie footer .copyright li {
     display: inline;
+    background-color: #1a1e23;
 }
 
 footer .copyright li:before {
@@ -1976,11 +2004,35 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #fff;
 }
 
 footer .social-links li:first-child {
     margin-left: 0;
+}
+
+footer .fa-linkedin:hover {
+    color: #0077B5;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    transition: all 400ms;
+}
+
+footer .fa-skype:hover {
+    color: #12A5F4;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    transition: all 400ms;
+}
+
+footer .fa-instagram:hover {
+    color: #9b6954;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    transition: all 400ms;
 }
 
 
@@ -1990,15 +2042,20 @@ footer .social-links li:first-child {
     position: absolute;
     top: -24px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -20px;
+}
+
+#go-top i {
+    align-content: center;
+    border-top: 50%;
 }
 
 #go-top a {
     text-decoration: none;
     border: 0 none;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #525252;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -2007,10 +2064,12 @@ footer .social-links li:first-child {
     transition: all 0.2s ease-in-out;
     color: #fff;
     font-size: 21px;
-    line-height: 60px;
+    line-height: 45px;
     border-radius: 100%;
 }
 
 #go-top a:hover {
-    background-color: #e43d4e;
+    background-color: #fff;
+    /*    e43d4e*/
+    color: #525252;
 }

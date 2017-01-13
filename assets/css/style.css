@@ -282,6 +282,29 @@
          color: #e43d4e;
          margin-right: 10px;
      }
+     /* ==== Loader ==== */
+
+     @keyframes cortana {
+         0% {
+             box-shadow: 0 0 0 10px #1a1e23, 0 0 0 40px #e43d4e;
+         }
+         100% {
+             box-shadow: 0 0 0 15px #1a1e23, 0 0 0 25px #e43d4e;
+         }
+     }
+
+     .cortana {
+         width: 75px;
+         height: 75px;
+         border-radius: 50%;
+         box-shadow: 0 0 0 10px #1a1e23, 0 0 0 40px #e43d4e;
+         animation: cortana 1s infinite ease-in-out alternate;
+         background: none;
+         left: 50%;
+         margin-left: 50px;
+         margin-top: 50px;
+         top: 50%;
+     }
      /* === MAIN === */
 
      .section-padding {
@@ -1609,7 +1632,6 @@ Icon for all respective meta
 
      #pre-status,
      .preload-placeholder {
-         background-image: url(../images/preloader.gif);
          background-position: center;
          background-repeat: no-repeat;
          height: 200px;
@@ -1791,7 +1813,6 @@ Icon for all respective meta
      .personal-info p {
          margin-bottom: 40px;
      }
-
      /*footer*/
      /* i. Footer
 /* ------------------------------------------------------------------ */

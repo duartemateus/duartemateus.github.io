@@ -394,10 +394,10 @@ ul.list-check li::before {
     font-size: 60px;
     line-height: 80px;
     margin-bottom: 16px;
-    color: 1a1e23;
+    color: whitesmoke;
 }
 
-.intro h1 span {
+.intro .intro-sub span {
     color: #e43d4e;
 }
 
@@ -407,7 +407,7 @@ ul.list-check li::before {
 }
 
 .intro-sub {
-    color: #fff;
+    color: #1a1e23;
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
@@ -1528,6 +1528,11 @@ Icon for all respective meta
     padding: 9px 54px;
 }
 
+.hire-section a:hover {
+    background-color: rgba(255, 255, 255, 0.88);
+    color: #1a1e23
+}
+
 
 /* === Contact Section === */
 
@@ -1628,6 +1633,18 @@ Icon for all respective meta
  * Mouse animate icon
 /* ---------------------------------------------- */
 
+.down-icon {
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+    bottom: 40px;
+    margin-left: -10px;
+    display: block;
+}
+
+
+/*
 .mouse-icon {
     position: absolute;
     left: 50%;
@@ -1640,7 +1657,10 @@ Icon for all respective meta
     display: block;
     z-index: 10;
 }
+*/
 
+
+/*
 .mouse-icon .wheel {
     -webkit-animation-name: drop;
     -webkit-animation-duration: 1s;
@@ -1666,6 +1686,7 @@ Icon for all respective meta
     margin-left: auto;
     margin-right: auto;
 }
+*/
 
 @-webkit-keyframes drop {
     0% {
@@ -1929,18 +1950,13 @@ footer {
     font-size: 14px;
     text-align: center;
     position: relative;
-    background-color: #1a1e23;
+    /*    background-color: #1a1e23;*/
     margin-bottom: 0;
 }
 
 footer a,
 footer a:visited {
     color: #525252;
-}
-
-footer a:hover,
-footer a:focus {
-    color: #fff;
 }
 
 

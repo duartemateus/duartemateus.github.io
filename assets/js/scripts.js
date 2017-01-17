@@ -35,7 +35,51 @@ jQuery(function ($) {
     });
 
 
+    // -------------------------------------------------------------
+    // Modal popup
+    // -------------------------------------------------------------
+(function () {
 
+        var $grid = $('#grid');
+
+        $grid.shuffle({
+            itemSelector: '.portfolio-item'
+        });
+
+        /* reshuffle when user clicks a filter item */
+        $('#filter a').click(function (e) {
+            e.preventDefault();
+
+            // set active class
+            $('#filter a').removeClass('active');
+            $(this).addClass('active');
+
+            // get group name from clicked item
+            var groupName = $(this).attr('data-group');
+
+            // reshuffle grid
+            $grid.shuffle('shuffle', groupName );
+        });
+
+
+    }());
+
+
+
+  $('.portfolio a').magnificPopup({
+
+        type: 'inline',
+        fixedContentPos: true,
+        removalDelay: 200,
+        showCloseBtn: true,
+        mainClass: 'mfp-fade'
+
+});
+
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+    });
 
     // -------------------------------------------------------------
     // Animated scrolling / Scroll Up
@@ -185,6 +229,7 @@ jQuery(function ($) {
     // WOW JS
     // -------------------------------------------------------------
 
+  
     (function () {
 
         new WOW({

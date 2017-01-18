@@ -66,20 +66,7 @@ jQuery(function ($) {
 
 
 
-  $('.portfolio a').magnificPopup({
 
-        type: 'inline',
-        fixedContentPos: true,
-        removalDelay: 200,
-        showCloseBtn: true,
-        mainClass: 'mfp-fade'
-
-});
-
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
-        e.preventDefault();
-        $.magnificPopup.close();
-    });
 
     // -------------------------------------------------------------
     // Animated scrolling / Scroll Up

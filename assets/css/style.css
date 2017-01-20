@@ -28,6 +28,7 @@
          color: #282828;
          background-color: #fff;
          padding-bottom: 0;
+          padding-right: 0 !important;
          min-height: 100%;
          -webkit-text-size-adjust: 100%;
          -webkit-overflow-scrolling: touch;
@@ -1097,6 +1098,23 @@ Resume Timeline
 
 
 /*MODAL popup*/
+
+.modal-header{
+    color:white;
+    background-color: #1a1e23;
+}
+
+.modal-body{
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.modal-footer{
+    background-color: #1a1e23;
+}
+
+
 .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -1114,6 +1132,7 @@ Resume Timeline
 	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
+   background-size: cover;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -1168,69 +1187,38 @@ Resume Timeline
 
 
 
-
-.popup-modal {
-	background: #fff;
- height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
-	margin-bottom: 12px;
-   color: #111;
-}
-.popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
-   margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   display: block;
-   text-align: left;
-}
-.popup-modal .description-box .categories i {
-   margin-right: 8px;
-}
-.popup-modal .link-box {
-   padding: 18px 36px;
-   background: #111;
-   text-align: left;
-}
-.popup-modal .link-box a {
-   color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-   letter-spacing: 3px;
-   cursor: pointer;
-}
-.popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
-
-
      .portfolio-item {
          padding-right: 5px;
          padding-left: 5px;
          min-height: 235px;
+    background-size: cover !important;
+         
+         
      }
 
      .portfolio-bg {
          background: #fff;
+         background-size: cover;
          padding: 5px;
          margin-bottom: 20px;
          border: 1px solid #eee;
          border-bottom: 3px double #eee;
+    background-size: cover !important;
+         
+
      }
 
+.portfolio-img{
+    background-size: cover !important;
+   /*
+    width: 278px !important;
+    height: 205.5px !important;*/
+}
      .portfolio {
          position: relative;
          overflow: hidden;
+    background-size: cover !important;
+        
      }
      /* Shuffle Filter*/
 
@@ -1240,7 +1228,7 @@ Resume Timeline
      }
 
      #filter li a {
-         color: #68c3a3;
+         color: #e43d4e;
          display: block;
          text-transform: uppercase;
          padding: 0 15px;
@@ -1251,7 +1239,7 @@ Resume Timeline
      #filter li a.active,
      #filter li a:hover {
          position: relative;
-         background: #68c3a3;
+         background: #e43d4e;
          color: #fff;
          border-bottom: 3px solid rgba(0, 0, 0, 0.15);
      }
@@ -1264,7 +1252,7 @@ Resume Timeline
          height: 0;
          border-left: 8px solid transparent;
          border-right: 8px solid transparent;
-         border-top: 10px solid rgba(104, 195, 163, 1);
+         border-top: 10px solid #e43d4e;
          bottom: -9px;
          left: 50%;
          margin-left: -8px;
@@ -1276,7 +1264,6 @@ Resume Timeline
          width: 100%;
          height: 100%;
          opacity: 0;
-         color:pink;
      }
 
      .portfolio-info,

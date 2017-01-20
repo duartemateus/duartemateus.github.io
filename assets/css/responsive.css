@@ -113,40 +113,6 @@
 		margin-bottom:0;
 	}
 
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
-	.personal-info h1{
-		font-size: 40px;
-		line-height: 50px;
-	}
-
-	.personal-info .intro-sub{
-		font-size: 18px;
-  		line-height: 20px;
-	}
-
-	.personal-info p{
-		line-height: 20px;
-		margin-bottom: 20px;
-	}
-
-	.personal-info .my-signature {
-	  	display: none;
-	}
-
-	.personal-info .download-button a{
-		padding: 5px 10px;
-  		font-size: 15px;
-  		margin-right: 0;
-	}
 }
 
 /* Landscape Mobile */
@@ -256,42 +222,6 @@
 		margin-bottom:0;
 	}
 
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
-	.personal-info h1{
-		font-size: 60px;
-  		line-height: 80px;
-	}
-
-	.personal-info .intro-sub{
-		font-size: 24px;
-		line-height: 32px;
-	}
-
-	.personal-info p{
-		font-size: 14px;
-		line-height: 28px;
-	}
-
-	.personal-info .my-signature {
-	    margin-bottom: 45px;
-	    display: block;
-	}
-
-	.personal-info .download-button a{
-		padding: 14px 20px;
-  		font-size: 14px;
-  		margin-right: 20px;
-	}
-
 
 }
 
@@ -361,17 +291,6 @@
 	.service-wrap > div:nth-child(4){
 		margin-bottom:0;
 	}
-
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
 
 }
 

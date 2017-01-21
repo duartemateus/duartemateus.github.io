@@ -193,9 +193,7 @@
      }
 
 
-     .cv{
-         background-color: #1a1e23 !important;
-     }
+    
      
      .btn-primary:hover,
      .btn-primary:focus,
@@ -614,7 +612,7 @@ SOCIAL ICON
      .download-button a {
          margin-right: 20px;
          color: #fff;
-         background-color: #e43d4e;
+         background-color: #1a1e23;
      }
      
      .download-button a i {

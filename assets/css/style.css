@@ -329,6 +329,17 @@
          bottom: -40px;
          margin: 0 auto;
      }
+     .skills-section .section-title::after {
+         content: "";
+         background: url(../../assets/images/section-divider-black.png) no-repeat 0 0;
+         height: 15px;
+         width: 113px;
+         position: absolute;
+         left: 0;
+         right: 0;
+         bottom: -40px;
+         margin: 0 auto;
+     }
      /* === HOME === */
      
      @media (max-width: 640px) {
@@ -965,7 +976,6 @@ Resume Timeline
      
      .skills-section .section-title {
          color: #fff;
-         margin-bottom: 110px;
      }
      
      .skills-section .section-title h2 {
@@ -973,8 +983,8 @@ Resume Timeline
      }
      
      .skill-title {
-         width: 25%;
-         float: left;
+         width: 100%;
+         padding-bottom: 10px;
      }
      
      .skill-title h3 {
@@ -988,7 +998,17 @@ Resume Timeline
          margin: auto;
      }
      /* progress-bar */
-     
+
+.lineHolder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+        background-color: #e43d4e;
+    height: 1px;
+    width: 340px;
+}
      .skill-progress {
          position: relative;
      }
@@ -1020,7 +1040,7 @@ Resume Timeline
      }
      
      .skill-chart h3 {
-         margin-top: 20px;
+         margin-top: 30px;
      }
      
      .our-progress {

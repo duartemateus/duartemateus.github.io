@@ -797,6 +797,10 @@ Resume Timeline
          width: 100%;
      }
 
+     .timeline-body .experience-left {
+         text-align: left;
+     }
+
      .timeline-body:hover a {
          color: #333333;
      }

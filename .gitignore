@@ -1,2 +1,5 @@
 .vscode/iis-e-settings.json
 .vscode/iisexpress.json
+node_modules/
+
+package-lock.json

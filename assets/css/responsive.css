@@ -32,9 +32,21 @@
 	}
 
 	/*about me section*/
+    #biografy-container{
+        display: flex !important;
+        place-content: space-evenly !important;
+    }
+    
+    .myphoto{
+        width:27vw;
+        max-width: 200px;
+    }
+    
 	.biography {
 		margin-top: 20px;
 		margin-bottom: 45px;
+        display: flex !important;
+        align-items: center !important;
 	}
 
 	ul.list-check li {
@@ -239,9 +251,18 @@
 	}
 
 	/*about me section*/
+    #biografy-container{
+        display: flex !important;
+        place-content: space-evenly !important;
+    }
+    .myphoto{
+        width:200px;
+    }
 	.biography {
 		margin-top: 20px;
 		margin-bottom: 45px;
+        display: flex !important;
+        align-items: center !important;
 	}
 
 	/*resume*/

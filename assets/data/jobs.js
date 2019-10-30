@@ -4,8 +4,8 @@ var jobs = [
 			'Title': 'Software Developer',
 			'Company': 'Tax Systems',
 			'Scope': 'Web development, microservices, multi tenancy.',
-			'Technologies': '.Net core,.Net standard, javascript, IOC, TDD',
-			'Contribution': 'Helped introduce microservices and multi tenancy to replace the current system.'
+			'Technologies': 'Full stack development .Net core, .Net standard, Javascript, IOC, TDD, Entity framework.',
+			'Contribution': ': Helped delivering the first iteration of a new product. Worked on introducing microservices and multi tenancy to replace an older system.'
 		},
         {
 			'Year': '2018',

@@ -19,7 +19,6 @@
 -------------------------------------
 =====================================
 */
-
      .social-icons .list-inline > li {
          display: inline;
          padding-right: 5px;
@@ -884,6 +883,10 @@ Resume Timeline
          display: block;
          font-weight: 700;
          margin-bottom: 20px;
+     }
+
+     .contribution-link{
+         color: #e43d4e !important
      }
 
      @media(min-width:992px) {

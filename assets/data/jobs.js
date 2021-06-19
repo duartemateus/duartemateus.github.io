@@ -1,5 +1,13 @@
 var jobs = [
 		{
+			'Year': '2020',
+			'Title': 'Tech Lead',
+			'Company': 'Tax Systems',
+			'Scope': 'Web application, Cloud, Azure',
+			'Technologies': 'Full stack development .Net core, .Net standard, Javascript, IOC',
+			'Contribution': ': Helped introduce and maintain better practices. Architect and guide new development and the refactoring of legacy code to allow scalability.'
+		},
+		{
 			'Year': '2019',
 			'Title': 'Software Developer',
 			'Company': 'Tax Systems',

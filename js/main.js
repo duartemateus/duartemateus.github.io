@@ -73,6 +73,7 @@ function GetContributionHtml(contribution) {
                     <p>
                         <b>Scope:</b> ${contribution.Scope}
                         <br><b>Technologies:</b> ${contribution.Technologies}
+                        <br><b>Contributions:</b> ${contribution.Contributions}
                         <br><b>Repo:</b> <a href="${contribution.Repo}" class="contribution-link"> Intrigue.io github</a>
                     </p>
                 </div>

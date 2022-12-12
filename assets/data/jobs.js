@@ -1,5 +1,21 @@
 var jobs = [
 		{
+			'Year': '2022',
+			'Title': 'Software Engineer',
+			'Company': 'Google',
+			'Scope': 'Security, Micro services and Cloud',
+			'Technologies': 'Ruby, Python, GO, Javascript',
+			'Contribution': ': Worked with the team to develop new micro services and improve the existing applications and try to make the world a safer place from cyber threats.'
+		},
+		{
+			'Year': '2021',
+			'Title': 'Software Engineer',
+			'Company': 'Mandiant',
+			'Scope': 'Security, Micro services and Cloud',
+			'Technologies': 'Ruby, Python, GO, Javascript',
+			'Contribution': ': Worked with the team to develop new micro services and improve the existing applications and try to make the world a safer place from cyber threats.'
+		},
+		{
 			'Year': '2020',
 			'Title': 'Tech Lead',
 			'Company': 'Tax Systems',

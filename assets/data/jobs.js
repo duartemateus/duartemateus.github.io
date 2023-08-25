@@ -4,7 +4,7 @@ var jobs = [
 			'Title': 'Software Engineer',
 			'Company': 'Google',
 			'Scope': 'Security, Micro services and Cloud',
-			'Technologies': 'Ruby, Python, GO, Javascript',
+			'Technologies': 'Ruby, Python, GO',
 			'Contribution': ': Worked with the team to develop new micro services and improve the existing applications and try to make the world a safer place from cyber threats.'
 		},
 		{

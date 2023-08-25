@@ -9,7 +9,7 @@ var jobs = [
 		},
 		{
 			'Year': '2021',
-			'Title': 'Software Engineer',
+			'Title': 'Senior Software Engineer',
 			'Company': 'Mandiant',
 			'Scope': 'Security, Micro services and Cloud',
 			'Technologies': 'Ruby, Python, GO, Javascript',
